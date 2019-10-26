@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+    <android.widget.LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:background="#009C27B0"
+            android:text="Sign Up Screen"
+            android:textColor="#E92031"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="145dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-268dp"
+            android:layout_marginTop="40dp"
+            android:background="#FF5722" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-410dp"
+            android:layout_marginTop="80dp"
+            android:text="How would you like to be addressed?"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-400dp"
+            android:layout_marginTop="150dp"
+            android:text="User Name"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="190dp"
+            android:layout_marginLeft="-400dp"
+            android:inputType="textPersonName"
+            android:textSize="15dp"
+            android:onClick="EmailValidate"
+            android:text="User Name"/>
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-400dp"
+            android:layout_marginTop="240dp"
+            android:text="Password"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280dp"
+            android:layout_marginLeft="-400dp"
+            android:inputType="textPersonName"
+            android:textSize="15dp"
+            android:text="Shoaib"/>
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-400dp"
+            android:layout_marginTop="330dp"
+            android:text="Email Address"
+            android:textSize="15dp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-400dp"
+            android:layout_marginTop="370dp"
+            android:inputType="textPersonName"
+            android:text="Email"
+            android:textSize="15dp" />
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-400dp"
+            android:layout_marginTop="420dp"
+            android:checked="true"
+            android:text="I consent, to the processingof my personal data in accordance with the Vistajet Privacy Policy, and to the Vistajet Direct Program Terms and Conditions of Use"
+            android:textSize="12dp"
+            android:textStyle="normal" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-412dp"
+            android:layout_marginTop="490dp"
+            android:background="@android:color/holo_red_light"
+            android:onClick="EmailValidate"
+            android:text="Signup"
+            android:textSize="12dp"
+            android:textStyle="normal" />
+
+    </android.widget.LinearLayout>
+</ScrollView>
