@@ -32,9 +32,18 @@ public class a_4_signup extends AppCompatActivity {
         String str = email.getText().toString();
         String str1 = password.getText().toString();
         boolean isError= false;
-        if (!str.contains("@")){
+        if (!str.contains("@"))
+        {
             email.setError("@ is missing");
-            isError = true;}
+            isError = true;
+        }
+
+        else if (!str.contains(".com"))
+        {
+            email.setError(".com is missing");
+            isError = true;
+        }
+
         if (str1.length() < 5 || str1.length() > 8){
             password.setError("invalid pass");
             isError = true;}

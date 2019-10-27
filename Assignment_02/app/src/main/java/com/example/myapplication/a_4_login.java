@@ -32,6 +32,13 @@ public class a_4_login extends AppCompatActivity {
         if (!str.contains("@")){
             email.setError("@ is missing");
             isError = true;}
+
+        else if (!str.contains(".com"))
+        {
+            email.setError(".com is missing");
+            isError = true;
+        }
+
         if (str1.length() < 5 || str1.length() > 8){
             password.setError("invalid pass");
             isError = true;}
