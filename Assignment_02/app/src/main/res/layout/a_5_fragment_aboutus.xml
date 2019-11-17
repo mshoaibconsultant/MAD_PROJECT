@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a_5_fragment_aboutus">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="258dp"
+        android:text="We recruit, train, develop and retain committed professionals with high integrity, intelligence, education, knowledge and experience. We require them to conduct themselves in a diligent and professional manner, and communicate their knowledge to our clients clearly and proactively. We provide them with challenging and rewarding careers with opportunities for development in a professional environment." />
+
+</FrameLayout>

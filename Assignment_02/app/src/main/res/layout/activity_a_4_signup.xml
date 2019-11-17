@@ -28,7 +28,7 @@
             android:id="@+id/textView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="-268dp"
+            android:layout_marginLeft="-315dp"
             android:layout_marginTop="40dp"
             android:background="#FF5722" />
 
@@ -121,7 +121,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="-412dp"
-            android:layout_marginTop="490dp"
+        android:layout_marginTop="490dp"
             android:background="@android:color/holo_red_light"
             android:onClick="EmailValidate"
             android:text="Signup"
