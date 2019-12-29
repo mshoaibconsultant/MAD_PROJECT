@@ -108,7 +108,7 @@
         android:layout_marginTop="420dp"
         android:background="@android:color/holo_red_light"
         android:text="Signin"
-        android:onClick="EmailValidate1"
+
         android:textSize="12dp"
         android:textStyle="normal" />
 

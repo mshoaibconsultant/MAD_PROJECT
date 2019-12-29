@@ -14,7 +14,7 @@ public class a_4_login extends AppCompatActivity {
     EditText username;
     EditText password;
     EditText email;
-
+    myDbAdapter db = new myDbAdapter(this);
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
